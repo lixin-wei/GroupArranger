@@ -1,0 +1,17 @@
+.namebox {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #eee;
+    margin: 2px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+    padding-top: 13px;
+}
+
+
+.namearray {
+	height: 55px;
+	overflow: hidden;
+}

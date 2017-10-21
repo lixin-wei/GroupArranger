@@ -38,9 +38,31 @@ $default_name_list = ["李思怡","沈洁","王懿琦","王含泽","钱苗军","
 				</div>
 			</div>
 			<div class="row" style="text-align: center; margin-top: 20px;">
-					<button type="submit" class="btn btn-success btn-lg">开始分组</button>
+                <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
+                    更新历史
+                </button>
+                <button type="submit" class="btn btn-success btn-lg">开始分组</button>
 			</div>
 		</form>
+        <hr>
+        <div style="text-align: center;">
+            <p><a href="https://github.com/wlx65003/GroupArranger">github.com/wlx65003/GroupArranger</a></p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">更新历史</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>2017-10-20</p>
+                        <p>修复了内定组为空时会多一个空块的bug</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</div>
 </body>
 </html>
